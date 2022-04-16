@@ -49,9 +49,10 @@ let tony = new Person('Tony', 2, 'Santa Monica', ['fishing', 'snorkling', 'bikin
 
 let eric = new Coder('Eric', 3, 'Marina Del Rey', ['hiking', 'rollerblading', 'scuba-diving', 'traveling']);
 
+console.log(tony)
 tony.info()
 tony.greeting()
 
-
+console.log(eric)
 eric.info()
 eric.greeting()
